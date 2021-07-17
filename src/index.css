@@ -11,7 +11,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e7e9eb;
 }
 
 code {
@@ -97,11 +96,6 @@ main {
   max-width: 400px;
   background-color: #fdfdfd;
   box-shadow: 1px 1px 1px var(--shadow-color);
-}
-
-.app-name h1 {
-  font-size: 35px;
-  padding-bottom: 30px;
 }
 
 .answer-btn {
@@ -199,18 +193,4 @@ select {
   margin: 8px 0;
   box-sizing: border-box;
   font-size: 15px;
-}
-
-.select {
-  width: 100%;
-  min-width: 15ch;
-  max-width: 30ch;
-  border: 1px solid var(--select-border);
-  border-radius: 0.25em;
-  padding: 0.25em 0.5em;
-  font-size: 1.25rem;
-  cursor: pointer;
-  line-height: 1.1;
-  background-color: #fff;
-  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }

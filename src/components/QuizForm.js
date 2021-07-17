@@ -6,12 +6,15 @@ const QuizForm = () => {
   return (
     <section className="quiz quiz-small">
       <form>
-        <div className="app-name">
-          <h1>Trivia API Quiz</h1>
+        <div>
+          <h1 class="text-blue-600 text-4xl font-semibold pb-5">Trivia API Quiz</h1>
         </div>
         <div>
-          <label for="noOfQuestion">Number of Questions</label>
+          <label for="noOfQuestion" class="text-lg">
+            Number of Questions
+          </label>
           <input
+            class="apperance-none w-full border border-gray-300 rounded-lg"
             type="number"
             name="amount"
             value={quiz.amount}
@@ -20,9 +23,12 @@ const QuizForm = () => {
             max={50}
           />
         </div>
-        <div>
-          <label for="category">Category</label>
+        <div class="mt-1">
+          <label for="category" class="text-lg">
+            Category
+          </label>
           <select
+            class="apperance-none w-full border border-gray-300 rounded-lg mb-3"
             name="category"
             id="category"
             value={quiz.category}
@@ -34,8 +40,11 @@ const QuizForm = () => {
           </select>
         </div>
         <div>
-          <label for="difficulty">Difficulty</label>
+          <label for="difficulty" class="text-lg">
+            Difficulty
+          </label>
           <select
+            class="apperance-none w-full border border-gray-300 rounded-lg"
             name="difficulty"
             id="difficulty"
             value={quiz.difficulty}
@@ -46,10 +55,12 @@ const QuizForm = () => {
             <option value="hard">Hard</option>
           </select>
         </div>
-
-        <button type="submit" onClick={handleSubmit} className="answer-btn">
+        <div class="flex justify-center">
+        <button type="submit" onClick={handleSubmit}
+        class="btn border border-gray-200 w-full px-12 py-2 rounded-lg border border-gray-300 text-md text-gray-600 mt-7 bg-gradient-to-tl from-gray-200 to-gray-100 hover:from-gray-300 hover:to-gray-200 shadow-sm">
           Start
         </button>
+        </div>
       </form>
     </section>
   );
