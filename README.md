@@ -1,8 +1,8 @@
-# Trivia API Quiz with Tailwind CSS styles
+# Trivia API Quiz with Tailwind CSS styles :yum:
 
 ## Interface
 
-### First Page
+### Main Page
 ![first](https://user-images.githubusercontent.com/64141913/126036378-05ac91c5-2b86-43e1-9d79-32acb2c64b4a.png)
 
 ### Quiz Page
