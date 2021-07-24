@@ -1,4 +1,4 @@
-# Trivia API Quiz with Tailwind CSS styles :yum:
+# Trivia API Quiz with Tailwind CSS styles
 
 ## Interface
 
