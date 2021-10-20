@@ -1,4 +1,4 @@
-# Trivia API Quiz with Tailwind CSS styles
+# Trivia API Quiz
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Interface
